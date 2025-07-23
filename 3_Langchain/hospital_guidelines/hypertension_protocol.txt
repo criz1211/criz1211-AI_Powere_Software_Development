@@ -1,0 +1,6 @@
+Hypertension Treatment Protocol:
+
+- Stage 1 hypertension (130–139/80–89 mmHg): Recommend lifestyle modifications and monitor regularly.
+- Stage 2 hypertension (≥140/90 mmHg): Begin pharmacologic treatment, typically ACE inhibitors or calcium channel blockers.
+- Ensure patients reduce sodium intake and engage in moderate physical activity at least 5 days/week.
+- Reassess after 1 month and adjust medications as needed.

@@ -1,0 +1,1 @@
+LangChain components include document loaders, text splitters, embedding models, vector stores, retrievers, prompt templates, chains, and memory.
