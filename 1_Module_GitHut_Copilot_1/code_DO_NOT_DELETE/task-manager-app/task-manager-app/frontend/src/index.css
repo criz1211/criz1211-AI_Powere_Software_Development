@@ -1,0 +1,5 @@
+/* Basic CSS to fix missing file error */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
