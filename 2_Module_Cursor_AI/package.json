@@ -1,0 +1,21 @@
+{
+  "name": "my-node-api",
+  "version": "1.0.0",
+  "description": "A simple Node.js API server using Express and CORS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "cors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+} 
