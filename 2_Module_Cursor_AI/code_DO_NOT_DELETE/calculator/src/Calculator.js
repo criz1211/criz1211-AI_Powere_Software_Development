@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = 'http://localhost:3001/calculate';
+const API_BASE = 'http://localhost:5050';
 
 const Calculator = () => {
   const [displayValue, setDisplayValue] = useState('0');
@@ -50,13 +50,14 @@ const Calculator = () => {
   };
 
   const performCalculation = async (num1, operation, num2) => {
+    const opWord = opToWord(operation);
     try {
-      const response = await fetch(API_URL, {
+      const response = await fetch(`${API_BASE}/${opWord}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ num1, num2, operation: opToWord(operation) }),
+        body: JSON.stringify({ a: num1, b: num2 }),
       });
       const data = await response.json();
       if (!response.ok) {
